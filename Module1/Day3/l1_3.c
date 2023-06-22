@@ -18,7 +18,10 @@ int largestNum(int num)
         if (tempNum > maxNum) 
         {
             maxNum = tempNum;
-        }
+        }else
+        {
+            printf("Not Valid\n");
+        } 
         divisor *= 10;
     }
 
